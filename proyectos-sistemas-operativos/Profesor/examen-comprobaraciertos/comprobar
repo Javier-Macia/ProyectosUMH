@@ -1,0 +1,17 @@
+#!/bin/bash
+#Obtenemos el numero de hijos del numero de ficheros rNN que hay
+#Para cada uno de los ficheros rNN contamos el número de uno que tiene, estos son los aciertos, que los guardamos en un array
+#El máximo del array es el ganador, si sólo hay uno 
+#   mostramos el mensaje "El hijo H gana con A aciertos" donde H es el índice del array para el máximo y A el máximo
+#Si hay varios hijos con el máximo valor mostramos el mensaje
+#   "Los hijos H,J,K... ganan con A aciertos" donde H,J,K... son los índices del array para el máximo y A el máximo
+#Si no hay ficheros rNN mostramos el mensaje "No hay ficheros de resultados"
+
+# La función recibe como parámetro el nombre de fichero de resultados y devuelve el número de unos que contiene
+function PremiosFichero {
+	echo $(cat $1 | tr -d -c '1' | wc -m)
+}
+
+PremiosFichero $1
+
+

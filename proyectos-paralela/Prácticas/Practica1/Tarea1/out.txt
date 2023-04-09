@@ -1,0 +1,144 @@
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.733355 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.885486 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.590889 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.445178 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.363729 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.308096 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 5.409226 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 2.756767 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.845261 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.400873 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.126852 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.938698 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 3.483457 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.578796 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.917619 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.707749 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.561804 segundos
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Nov 22 2022 | HORA 09:25:30)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.463295 segundos
+
+--------------------------------------------------------------------

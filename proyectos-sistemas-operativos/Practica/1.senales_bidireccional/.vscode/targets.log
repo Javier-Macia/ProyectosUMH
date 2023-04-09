@@ -1,0 +1,561 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Thu Jul 28 16:19:54 2022
+ 
+
+# Variables
+ 
+
+ 
+# environment
+ 
+GDK_BACKEND = x11
+ 
+# environment
+ 
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# makefile (from 'makefile', line 2)
+SRC_DIR = ./src
+# environment
+VSCODE_CWD = /home/javier/Escritorio/Ejercicios/1.senales_bidireccional
+# environment
+UBUNTU_MENUPROXY = 1
+# environment
+GDM_LANG = es_ES
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# makefile (from 'makefile', line 4)
+OBJ_DIR = ./obj
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/javier/Escritorio/Ejercicios/1.senales_bidireccional
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/javier/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/javier
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/javier/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/javier/.Xauthority
+# default
+ 
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'makefile', line 7)
+PROGRAM = $(BIN_DIR)/sorteo
+# environment
+GNOME_TERMINAL_SERVICE = :1.130
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/javier/Escritorio/Ejercicios/1.senales_bidireccional
+# makefile (from 'makefile', line 3)
+INC_DIR = ./inc
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'obj/main.d', line 1)
+MAKEFILE_LIST := makefile obj/funciones.d obj/main.d
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 4185
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/javier-PC:@/tmp/.ICE-unix/1860,unix/javier-PC:/tmp/.ICE-unix/1860
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"aa57718bb4fee18a0bf2e4902cb2afaf.es","_translationsConfigFile":"/home/javier/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/tcf.json","_cacheRoot":"/home/javier/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es","_resolvedLanguagePackCoreLocation":"/home/javier/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/javier/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'makefile', line 11)
+OBJS = $(OBJ_DIR)/main.o $(OBJ_DIR)/funciones.o
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/30103895_f4a0_4ac5_a434_646dd95adfca
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = YZe1Eo82CY7zztDl26Nai4fayZoYYfE6AkcL5hKQMLfaAiKy2k82
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = es_ES
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/javier/snap/code/common
+# environment
+SNAP = /snap/code/102
+# makefile (from 'makefile', line 14)
+INCS = $(INC_DIR)/funciones.h
+# environment
+SNAP_REVISION = 102
+# environment
+SNAP_REAL_HOME = /home/javier
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Unity
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = javier
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := bin/sorteo
+# environment
+SYSTEMD_EXEC_PID = 1903
+# environment
+DISPLAY = :0
+# environment
+USER = javier
+# environment
+GTK_MODULES = appmenu-gtk-module:gail:atk-bridge:appmenu-gtk-module
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+SNAP_CONTEXT = YZe1Eo82CY7zztDl26Nai4fayZoYYfE6AkcL5hKQMLfaAiKy2k82
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'makefile', line 10)
+CFLAGS = -Wall -I$(INC_DIR)
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/javier/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/javier
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'makefile', line 1)
+BIN_DIR = ./bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2d1d384b-1.69.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 3b889b09
+# default
+SUFFIXES := 
+ 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/javier
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 9)
+CC = gcc
+# environment
+SNAP_USER_DATA = /home/javier/snap/code/102
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=126/1024=12%, Rehash=0, Collisions=11/168=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2051, inode 929668): No files, no impossibilities so far.
+# . (device 2051, inode 920713): 8 files, no impossibilities.
+# obj (device 2051, inode 929819): 6 files, no impossibilities.
+
+# 14 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.c
+#  recipe to execute (from 'makefile', line 21):
+	@mkdir -p $(OBJ_DIR)
+	@$(CC) -c -MD $(CFLAGS) $< -o $@
+	@echo \'$<\' se ha compilado.
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 16:19:22.682022793
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/main.o: src/main.c /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h src/../inc/funciones.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/../inc/funciones.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/features-time64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 30):
+	rm -r $(OBJ_DIR)
+	rm -f $(PROGRAM)
+
+# Not a target:
+/usr/include/features.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/sorteo: obj/main.o obj/funciones.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 17):
+	@mkdir -p $(BIN_DIR)
+	@$(CC) $(CFLAGS) $(OBJS) -o $(PROGRAM)
+ 
+
+# Not a target:
+src/funciones.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/funciones.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 16:19:22.70602292
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/stdc-predef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/funciones.o: src/funciones.c /usr/include/stdc-predef.h src/../inc/funciones.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/stdio.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 16:18:59.393899731
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=39/1024=4%, Rehash=0, Collisions=0/87=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 54 / storage = 1393 B / avg = 25 B
+# current buf: size = 8162 B / used = 1393 B / count = 54 / avg = 25 B
+
+# strcache performance: lookups = 74 / hit rate = 27%
+ 
+# hash-table stats:
+# Load=54/8192=1%, Rehash=0, Collisions=1/74=1%
+# Finished Make data base on Thu Jul 28 16:19:54 2022
+
+ 

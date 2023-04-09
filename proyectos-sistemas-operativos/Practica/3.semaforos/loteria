@@ -1,0 +1,283 @@
+#
+#-----------------------------
+#   DEFINICIÓN DE CONSTANTES
+#-----------------------------
+# Localizaciones
+SORTEO="./bin/sorteo"
+
+# Maximos y mínimos
+MIN_JUGADORES=1
+MAX_JUGADORES=10
+
+MIN_SORTEOS=1
+MAX_SORTEOS=15
+
+MAX_ARGS=2
+# Codigos de errores
+ERR=-1
+ERR_NUM_ARGS=-2
+ERR_NUM_SORTEOS=-3
+ERR_NUM_JUGADORES=-4
+ERR_MANYARGS_HELP=-5
+# COdigos de retorno
+RET_OK=0
+RET_HELP=1
+
+#-----------------------------
+#          FUNCIONES
+#-----------------------------
+echoerr(){ #Imprime texto en rojo para indicar error
+    echo $(tput bold)$(tput setaf 196)ERR: $1$(tput sgr0)
+}
+
+echogood(){ #Imprime texto en verde para indicar que todo fue bien
+    echo $(tput bold)$(tput setaf 2)$1$(tput sgr0)
+}
+
+echoannoun(){ #Imprime texto en azul para anunciar algo
+    echo $(tput bold)$(tput setaf 123)$1$(tput sgr0)
+}
+
+AnunciarError(){
+    if [ $1 -eq $ERR ]; then
+        echoerr "No se ha entendido la orden."
+    elif [ $1 -eq $ERR_NUM_ARGS ]; then
+        echoerr "Se han introducido un numero incorrecto de argumentos."
+    elif [ $1 -eq $ERR_NUM_SORTEOS ]; then
+        echoerr "El número de sorteos debe ser un numero entre $MIN_SORTEOS y $MAX_SORTEOS."
+    elif [ $1 -eq $ERR_NUM_JUGADORES ]; then
+        echoerr "El número de jugadores debe ser un numero entre $MIN_JUGADORES y $MAX_JUGADORES."
+    elif [ $1 -eq $ERR_MANYARGS_HELP ]; then
+        echoerr "Has introducido demasiados argumentos a '-?'."
+    else
+        echoerr "Se ha producido un error desconocido."
+    fi
+}
+
+AyudaScript(){
+          echo "----------------------------------------------"
+    echoannoun "  Programa realizado por Javier Macia Sempere "
+          echo "----------------------------------------------"
+          echo "Correo: javier.macia05@goumh.umh.es"
+          echo
+    echoannoun "Sintaxis:"
+          echo "$0 [numeroSorteos] [numeroJugadores]    <--- Ejecuta el programa"
+          echo "$0 -?                                   <--- Despliega esta guia"
+          echo 
+    echoannoun "Restricciones:"
+          echo "$MIN_SORTEOS <= numeroSorteos <= $MAX_SORTEOS"
+          echo "$MIN_JUGADORES <= numeroJugadores <= $MAX_JUGADORES"
+          echo
+    echoannoun "Funcionamiento de la practica:"
+          echo "Esta practica tiene dos partes: la parte de Bash y la parte de C."
+          echo "La parte de bash es esta, y se encargara de lanzar un numero 'n'"
+          echo "de veces el programa 'sorteo', escrito en C. El programa 'sorteo'"
+          echo "creara tantos hijos (jugadores) como se indique, y comprobaran su"
+          echo "apuesta con la combinacion generada por el padre. Luego el padre"
+          echo "generara un fichero de resultados del sorteo indicando el premio"
+          echo "correspondiente a cada jugador en funcion de los aciertos reportados."
+          echo "Una vez terminado este proceso, el bash (loteria) leera todos los"
+          echo "ficheros de resultado y creara un informe."
+}
+
+Inicializar(){
+    for jugador in `seq 1 $1`; do
+        premios[$jugador]=0
+    done
+}
+
+ControlArgumentos(){
+    #Numero de argumentos
+    if [ $# -gt $MAX_ARGS ] || [ $# -eq 0 ]; then
+        AnunciarError $ERR_NUM_ARGS
+        return $ERR
+    fi
+
+    #Arg1 es numero?
+    if [[ "$1" =~ ^[0-9]+$ ]]; then #Si lo es entonces...
+        if [ $1 -gt $MAX_SORTEOS ]; then
+            AnunciarError $ERR_NUM_SORTEOS
+            return $ERR
+        fi
+        if [ $1 -lt $MIN_JUGADORES ]; then
+            AnunciarError $ERR_NUM_SORTEOS
+            return $ERR
+        fi
+    else #Si no lo es
+        if [ "$1" == "-?" ] && [ $# -eq 1 ]; then
+            AyudaScript
+            return $RET_HELP
+        else 
+            if [ "$1" == "-?" ] && [ $# -ne 1 ]; then
+                AnunciarError $ERR_MANYARGS_HELP
+                return $ERR
+            fi
+            AnunciarError $ERR_NUM_SORTEOS
+            return $ERR
+        fi
+    fi
+
+    #Arg2 es numero?
+    if [[ "$2" =~ ^[0-9]+$ ]]; then #Si lo es entonces...
+        if [ $2 -gt $MAX_JUGADORES ]; then
+            AnunciarError $ERR_NUM_JUGADORES
+            return $ERR
+        fi
+        if [ $2 -lt $MIN_JUGADORES ]; then
+            AnunciarError $ERR_NUM_JUGADORES
+            return $ERR
+        fi
+    else #Si no lo es
+        AnunciarError $ERR_NUM_JUGADORES
+        return $ERR
+    fi
+
+    return $RET_OK
+    
+}
+
+preguntar(){
+    while true; do
+        if [ "$2" ]; then
+            echo -e "$1\n$2 (S/N) "
+            read -p "" yn
+        else
+            read -p "$1 (S/N) " yn
+        fi
+
+        case $yn in
+            [YySs] | [Yy][Ee][Ss] | [Ss][Ii] ) return 1;;
+            [Nn] | [Nn][oO] ) return 0;;
+            *) echo "No hemos entendido su orden. Por favor, responda si o no.";;
+        esac
+    done
+}
+
+ProgramaSorteo(){
+    preguntar "Se necesita compilar el programa para poder hacer uso del script. Desea compliarlo?"
+    res=$?
+
+    if [[ res -ne 0 ]]; then
+        make
+        if [[ $? != 0 ]]; then
+            echoerr "No se ha encontrado un fichero de makefile."
+            return $ERR
+        fi
+    else
+        echo "No se ejecutará el programa."
+        exit 1
+    fi
+}
+
+LimpiarFicheros(){
+    files=`ls | egrep '^S([0-9]||[0-9][0-9])R'`
+    $(rm -rf $files)
+}
+
+LeerFicherosPremios(){
+    loop=1
+    echo "----------------------------------------------"
+    echo "  Informe de premios de los sorteos"
+    echo "----------------------------------------------"
+    for sorteo in `ls | egrep '^S([0-9]||[0-9][0-9])R'`; do
+        echo "Sorteo $loop"
+        for jugador in `ls $sorteo`; do
+            echo "`cat $sorteo`"
+        done
+        loop=$((loop+1))
+        echo "----------------------------------------------"
+    done    
+}
+
+MostrarResultados(){
+    return $ERR
+}
+
+#-----------------------------
+#       CODIGO PRINCIPAL
+#-----------------------------
+echo "EJECUTANDO EL SCRIPT..."
+
+
+#########################
+# CONTROL DE ARGUMENTOS #
+#########################
+ControlArgumentos $*
+retVal=$? # $? Devuelve el último valor
+
+if [ $retVal -eq $RET_OK ];then 
+    echogood "[#1] Los argumentos introducidos son correctos."
+elif [ $retVal -eq $RET_HELP ];then exit $RET_OK;
+else 
+    echo "Error capturado. No se ejecutara el script."
+    echo "Escribe '$0 -?' para consultar la ayuda"
+    exit $ERR
+fi
+
+numSorteos=$1
+numJugadores=$2
+
+#########################
+#    LIMPIAR FICHEROS   #
+#########################
+Inicializar $numJugadores
+
+LimpiarFicheros
+retVal=$?
+if [ $retVal -ne 1 ];then 
+    echogood "[#2] Ficheros de ejecuciones anteriores limpiados correctamente,"
+else 
+    echoerr "[#2] Los ficheros de ejecuciones anteriores NO han podido ser limpiados."
+    echo "Error capturado. No se ejecutara el script."
+    exit $ERR
+fi
+
+#########################
+#   EJECUTAR PROGRAMA   #
+#########################
+ProgramaSorteo
+retVal=$?
+if [ $retVal -eq $RET_OK ];then 
+    echogood "[#3] Programa compilado correctamente."
+else 
+    echoerr "[#3] El programa NO ha podido ser compilado."
+    echo "Error capturado. No se ejecutara el script."
+    exit $ERR
+fi
+
+correct=0
+for iterator in `seq 1 $numSorteos`; do
+    echoannoun "Ejecutando el sorteo $iterator ..."
+    $SORTEO $iterator $numJugadores #Le pasamos el nº del sorteo y la cantidad de jugadores al programa "sorteo"
+
+    retVal=$?
+    if [ $retVal -eq $RET_OK ];then 
+        echogood "El sorteo numero $iterator ha terminado su ejecucion correctamente"
+        correct=$((correct+1))
+    else 
+        echoerr "Ha ocurrido un error en el sorteo numero $iterator."
+    fi
+done 
+
+if [ $correct -eq $numSorteos ];then 
+    echogood "[#4] Se ha acabado el proceso de ejecución de todos los sorteos correctamente." 
+else 
+    echoerr "[#4] No todos los sorteos han acabado correctamente. Han acabado correctamente $correct sorteos"
+fi
+
+#########################
+#    LEEMOS FICHEROS    #
+#########################
+LeerFicherosPremios
+retVal=$?
+if [ $retVal -eq $RET_OK ];then 
+    echogood "[#5] Ficheros de premios leidos correctamente."
+else 
+    echoerr "[#5] Los ficheros de premios NO han podido ser leidos."
+    echo "Error capturado. No se ejecutara el script."
+    exit $ERR
+fi
+
+
+
+exit $RET_OK

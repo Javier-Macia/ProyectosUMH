@@ -1,0 +1,13 @@
+-----------------------------------
+         PRÁCTICA 0 - T2
+-----------------------------------
+Por: Javier Maciá Sempere
+Ejecutado en un Ubuntu 22.04.1
+
+Se ha proporcionado un makefile para facilitar la compilación.
+
+-¿Puede leerse la matriz al completo con la ejecución de una sola instrucción de lectura?
+    > No con las matrices 2x5 ni 5x2, pero sí sería posible con un arreglo de 10.
+    No se podría debido a que leerá 10 dobles y los intentará meter en 2 o 5 posiciones
+    de la matriz, devolviendo así un error de violación de segmento. Con un arreglo de 10, 
+    tendrá cabida suficiente para introducir los datos y se leerá correctamente.

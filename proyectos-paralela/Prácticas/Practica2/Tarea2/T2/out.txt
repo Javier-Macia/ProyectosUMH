@@ -1,0 +1,105 @@
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 1
+Tiempo de ejecución 7.406337
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 2
+Tiempo de ejecución 3.597244
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 3
+Tiempo de ejecución 2.409987
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 4
+Tiempo de ejecución 1.893771
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 5
+Tiempo de ejecución 1.483726
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 6
+Tiempo de ejecución 1.520439
+--------------------------------------------
+
+EJECUCION FECHA: Dec 16 2022 HORA: 11:42:44
+Nombre del fichero de entrada: ./ejemplo.bin
+Nombre del fichero de salida: ./ejemplo.bin
+Elementos:
+	 > -325.518757
+	 > 22.045875
+	 > -255.386375
+	 > 21.276202
+	 > 251.200453
+	 > -21.152437
+	 > -285.709545
+Numero de procesos utilizado: 7
+Tiempo de ejecución 1.564024
+--------------------------------------------
+

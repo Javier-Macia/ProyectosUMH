@@ -1,0 +1,162 @@
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:48:28)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.710133 ms
+Número de hilos: 1
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:48:48)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.863136 ms
+Número de hilos: 2
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:48:53)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.584034 ms
+Número de hilos: 3
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:48:57)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.441226 ms
+Número de hilos: 4
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:00)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.353549 ms
+Número de hilos: 5
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:04)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'me'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.298654 ms
+Número de hilos: 6
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:11)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 5.386319 ms
+Número de hilos: 1
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:20)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 2.754299 ms
+Número de hilos: 2
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:25)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.839378 ms
+Número de hilos: 3
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:29)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.385960 ms
+Número de hilos: 4
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:33)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.171640 ms
+Número de hilos: 5
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:38)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'mn'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.926453 ms
+Número de hilos: 6
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:46)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 2.469400 ms
+Número de hilos: 1
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:53)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 1.420144 ms
+Número de hilos: 2
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:49:58)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.953792 ms
+Número de hilos: 3
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:50:03)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.729389 ms
+Número de hilos: 4
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:50:07)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.619822 ms
+Número de hilos: 5
+
+--------------------------------------------------------------------
+EJECUCIÓN DEL PROGRAMA './prog' (FECHA Dec  6 2022 | HORA 22:50:13)
+Con el archivo de entrada './img/lena4096x4096.raw'
+Fichero de salida resultado: 'imagen_filtrada.raw'
+Modo de ejecución: 'so'
+Dimension de la matriz: 4096 x 4096
+Tiempo de ejecución: 0.527425 ms
+Número de hilos: 6
+
+--------------------------------------------------------------------

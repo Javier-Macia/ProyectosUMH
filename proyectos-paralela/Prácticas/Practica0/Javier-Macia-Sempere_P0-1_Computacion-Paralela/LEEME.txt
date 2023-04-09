@@ -1,0 +1,27 @@
+-----------------------------------
+            PRÁCTICA 0
+-----------------------------------
+Por: Javier Maciá Sempere.
+Ejecutado en un Ubuntu 22.04.1
+
+Se ha proporcionado un makefile para compilar el programa fácilmente.
+
+- Compilador utilizado:
+    > GNU Compiler Collection.
+
+- Entorno de desarrollo utilizado:
+    > Visual Studio Code.
+
+- Tamaño en bytes del archivo binario:
+    > 80 bytes.
+
+- Tamaño en bytes del archivo texto generado que incluye los 10 datos con 5 cifras decimales:
+    > 163 bytes.
+
+- Tamaño en bytes del archivo texto generado que incluye los 10 datos con 10 cifras decimales:
+    > 213 bytes.
+
+- Breve análisis de la diferencia de tamaño entre los diferentes archivos (10 líneas máximo)
+    > Con respecto al archivo binario, los archivos de texto ocupan más debido a que los números
+      se representan con caracteres (lo cuál ocupa más espacio). En cuanto a por qué el de los
+      10 decimales ocupa más que el de 5, es porque el primero tiene más caracteres que el otro.
