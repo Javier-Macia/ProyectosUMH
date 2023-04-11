@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1648804446 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\lib.cpp
+
+1650657988 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\main.cpp
+	<Windows.h>
+	<unistd.h>
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Pasajero.hpp"
+	"Menu.hpp"
+
+1650577374 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\pasaporte.hpp
+	<stdio.h>
+	<string>
+
+1650577344 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\pasaporte.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<random>
+	<cstring>
+	"Pasaporte.hpp"
+
+1650660002 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\pasajero.cpp
+	<iostream>
+	<time.h>
+	<cstring>
+	<string>
+	<algorithm>
+	"Pasajero.hpp"
+
+1650654985 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\pasajero.hpp
+	<stdio.h>
+	<string>
+	"Pasaporte.hpp"
+
+1648804446 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\lib.cpp
+
+1649161866 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\main.cpp
+	<iostream>
+	<time.h>
+	"Pasaporte.hpp"
+	"Pasajero.hpp"
+
+1649332402 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\pasaporte.hpp
+	<stdio.h>
+	<string>
+
+1648854043 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\pasajero.hpp
+	<stdio.h>
+	<string>
+	"Pasaporte.hpp"
+
+1649062543 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\pasajero.cpp
+	<iostream>
+	<time.h>
+	"Pasajero.hpp"
+
+1649332215 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere - testeo\pasaporte.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<random>
+	"Pasaporte.hpp"
+
+1650577208 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\menu.hpp
+	<iostream>
+	"ColaPasajeros.hpp"
+
+1650659946 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\menu.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	"Menu.hpp"
+	"Pasajero.hpp"
+	"Pasaporte.hpp"
+
+1650578448 source:c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\colapasajeros.cpp
+	<iostream>
+	<time.h>
+	"ColaPasajeros.hpp"
+
+1650659596 c:\users\usuario\desktop\programas\ed\practica1-javiermaciasempere\colapasajeros.hpp
+	<iostream>
+	"Pasajero.hpp"
+

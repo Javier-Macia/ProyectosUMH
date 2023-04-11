@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1653423980 source:c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\main.cpp
+	<Windows.h>
+	<unistd.h>
+	<iostream>
+	<cstdlib>
+	<time.h>
+	"Pasajero.hpp"
+	"Menu.hpp"
+
+1653243417 c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\pasajero.hpp
+	<stdio.h>
+	<string>
+	"Pasaporte.hpp"
+
+1652868323 c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\pasaporte.hpp
+	<string>
+
+1653342736 c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\menu.hpp
+	<iostream>
+	"ArbolPasajeros.hpp"
+
+1653338827 c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\arbolpasajeros.hpp
+	<iostream>
+	"Pasajero.hpp"
+
+1653341870 source:c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\menu.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	"Menu.hpp"
+	"Pasajero.hpp"
+	"Pasaporte.hpp"
+
+1653163510 source:c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\pasajero.cpp
+	<iostream>
+	<time.h>
+	<cstring>
+	<string>
+	<algorithm>
+	"Pasajero.hpp"
+
+1653405379 source:c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\pasaporte.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<random>
+	<cstring>
+	"Pasaporte.hpp"
+
+1653338880 source:c:\users\usuario\desktop\programas\ed\practica2-javiermaciasempere\practica2\arbolpasajeros.cpp
+	<iostream>
+	<time.h>
+	"ArbolPasajeros.hpp"
+
