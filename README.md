@@ -10,6 +10,10 @@ El repositorio se organiza en diferentes carpetas, cada una de las cuales contie
 
 -   `proyectos-sistemas-operativos`: Contiene proyectos relacionados con la asignatura de sistemas operativos. Esta carpeta contiene tanto los enunciados, como los recursos, como el código fuente. 
 
+-   `proyectos-programacion1`: Contiene proyectos relacionados con la asignatura de fundamentos de programación. Esta carpeta contiene tanto el enunciado, como los recursos, como el código fuente del examen final de la asignatura. 
+
+-   `proyectos-estructuras-de-datos`: Contiene proyectos relacionados con la asignatura de estructuras de datos. Esta carpeta contiene tanto los enunciados, como los recursos, como el código fuente. 
+
 # Repositorio Personal - No se aceptan contribuciones
 
 Este repositorio es un portafolio personal donde comparto proyectos y trabajos que he realizado en diferentes áreas de estudio. Si bien aprecio el interés en contribuir a este repositorio, no las estoy aceptando.
