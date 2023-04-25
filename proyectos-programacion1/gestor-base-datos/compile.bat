@@ -1,0 +1,1 @@
+gcc main.c lib.c -o x
