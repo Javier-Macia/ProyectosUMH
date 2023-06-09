@@ -1,0 +1,30 @@
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/hidden.css";
+@import "components/buttons.css";
+@import "components/image.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-top: fit-content;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    background-color: #F5F5F5;
+    display: flex;
+}
+

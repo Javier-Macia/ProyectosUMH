@@ -1,0 +1,19 @@
+@import "components/card-style.css";
+@import "components/hidden.css";
+@import "components/buttons.css";
+main{
+    min-height: 80vh;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-comprobar{
+    min-height: 15em;
+}
+
+#resultados-comprobar{
+    min-height: 5em;
+}

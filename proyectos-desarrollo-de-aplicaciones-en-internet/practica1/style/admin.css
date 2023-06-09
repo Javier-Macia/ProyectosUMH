@@ -1,0 +1,147 @@
+@import "components/fa-rotate.css";
+@import "components/card-style.css";
+@import "components/dropdown.css";
+@import "components/javifly-table.css";
+
+/** Partes principales de la página de admin **/
+#admin-screen-wrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#admin-menu-wrapper{
+    width: 25%;
+    background-color: #e7e7e7;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    position: relative;
+}
+
+#admin-menu{
+    min-height: 100vh;
+    width: 100%;
+    top: 4em;
+    position: sticky;
+}
+
+#admin-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/** Partes del menú de administrador **/
+#menu-title-wrapper{
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE347;
+}
+
+#menu-content-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap:1em;
+}
+
+#logout_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+#logout_btn{
+    width: 100%;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3066BE;
+    cursor: pointer;
+    padding: 0.5em;
+    margin: 0.75em;
+}
+
+#menu-title-wrapper > h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3066BE;
+}
+
+#admin_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.input_cell input{
+    text-align: center;
+}
+
+
+/** Partes principales de los resultados de las ciudades **/
+.resultados-wrapper{
+    width: 100%;
+    padding: 2em 15% 2em 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/** Responsive **/
+@media screen and (max-width: 1280px){
+    #admin-menu .dropdown-button{
+        font-size: 80%;
+    }
+
+    #admin-menu .dropdown-button .fa{
+        font-size: 80%;
+    }
+
+    #logout_btn{
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 980px){
+    #resultados-ciudades-wrapper {
+        padding: 2em 0 2em 0em;
+    }
+
+    #admin-screen-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #admin-menu-wrapper {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    #logout_btn{
+        font-size: 1.25em;
+    }
+
+    #admin-menu{
+        min-height: auto;
+    }
+
+    #admin_nav{
+        padding-bottom: 0;
+        height: auto;
+    }
+}

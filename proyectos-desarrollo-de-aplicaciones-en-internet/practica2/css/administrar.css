@@ -1,0 +1,104 @@
+@import 'components/TSW-table.css';
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+    padding-inline: 2%;
+    padding-block: 16px;
+}
+
+.btn-admin{ 
+    padding: 8px;
+}
+
+
+.filters-container{
+    padding-block: 32px;
+    padding-inline: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#limpiar-filtros > input{
+    width: fit-content;
+    margin-left: auto;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#limpiar-filtros > input:hover{
+    box-shadow: 0 0 4px #ccc;
+}
+
+
+.filters{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.filter{
+    width: fit-content;
+}
+
+.filter > label{
+    width: fit-content;
+    text-align: left;
+}
+
+.filter > input, select{
+    margin: 0 8px;
+    width: 142px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.filter > input:hover, select:hover{
+    box-shadow: 0 0 4px #ccc;
+}
+
+.filtrar-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.filtrar-wrapper:hover{
+    box-shadow: 0 0 4px #ccc;
+}
+
+.filtrar-wrapper > label{
+    display: flex;
+    height: 100%;
+    padding: 4px 8px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+}
+
+.filtrar-wrapper > input[type="submit"]{
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    padding: 4px;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .btn-container{
+        flex-direction: column;
+    }
+}
+

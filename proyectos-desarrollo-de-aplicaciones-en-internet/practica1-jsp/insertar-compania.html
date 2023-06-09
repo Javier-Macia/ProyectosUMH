@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Javifly</title>
+    <link rel="stylesheet" href="style/general.css">
+</head>
+<body>
+
+<main>
+    <a href="http://localhost:80/practica1/admin.asp">Volver a la página principal</a>
+    <h1>Inserta una compañía</h1>
+    <form id="formulario" action="insertar-compania.jsp" method="GET">
+        <div>
+            <label for="id">ID Compañía:</label>
+            <input id="id" name="id" type="number" required>
+        </div>
+
+        <div>
+            <label for="nombre">Nombre de la compañía:</label>
+            <input id="nombre" name="nombre" type="text" required>
+        </div>
+        <input type="submit" value="Insertar">
+    </form>
+</main>
+</body>
+</html>

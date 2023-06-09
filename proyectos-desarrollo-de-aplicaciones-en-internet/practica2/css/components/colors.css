@@ -1,0 +1,18 @@
+:root{
+    --background-color: #f4f6f5;
+    --primary-color: #19324d;
+    --primary-color-hover: #294461;
+    --text-onprimary-color: #ffffff;
+    --secondary-color: #1c222b;
+    --secondary-color-hover: #294461;
+    --text-onsecondary-color: #ffffff;
+    --danger-color: #dc3545;
+    --danger-color-hover: #c82333;
+    --text-ondanger-color: #ffffff;
+    --accent-color: #2a4875;
+    --background-color: #f5f5f5;
+    --text-color: #0e1110;
+    --text-white-color: #ffffff;
+    --text-black-color: #000000;
+    --footer-background-color: #0e1110;
+}

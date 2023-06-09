@@ -1,0 +1,45 @@
+@import "components/buttons.css";
+@import "components/card-style.css";
+@import "components/javifly-table.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-top: fit-content;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:1em;
+    padding-inline: 5%;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+}
+
+#formulario > div{
+    display: flex;
+    flex-direction: column;
+}

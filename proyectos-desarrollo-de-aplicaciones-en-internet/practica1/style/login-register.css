@@ -1,0 +1,115 @@
+.login-register-main{
+    height: 100vh;
+    min-height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.login-register-wrapper{
+    height: fit-content;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 5%;
+    box-shadow: 0 1px 3px 0 rgba(37,32,31,.3);
+    margin: 2em 0 2em 0;
+}
+
+.login-register-form{
+    width: 100%;
+    display: block;
+    gap: 1em;
+}
+
+.input-wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper > input{
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 0.5em;
+    font-size: 1em;
+}
+
+.input-wrapper > input:focus{
+    outline: none;
+    border: 1px solid #3066BE;
+}
+
+.input-wrapper > label{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.form-section-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    width: 60%;
+    height: 3em;
+    font-weight: bold;
+}
+
+#opposite-action-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 0.5em;
+    border: 1px solid #b4b4b4;
+}
+
+#opposite-action-wrapper > p{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0em;
+}
+
+#opposite-action-btn{
+    width: 60%;
+    height: 2.5em;
+    font-weight: bold;
+}
+
+#opposite-action-btn:hover{
+    background-color: #4a5565;
+}
+
+@media screen and (max-width: 720px) {
+    .login-register-wrapper{
+        width: 80%;
+    }
+    .login-register-main{
+        height: 80vh;
+    }
+    .input-wrapper{
+        width: 80%;
+    }
+
+    #login-welcome-wrapper > h1{
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,75 @@
+@import "components/buttons.css";
+@import "components/card-style.css";
+
+main{
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 720px){
+    main{
+        padding:0;
+    }
+}
+
+#detalles-reserva-main{
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+#detalles-reserva{
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linea-detalle{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.linea-detalle > div{
+    display: block;
+}
+
+#accion-reserva-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+#accion-reserva-wrapper > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#accion-reserva-wrapper > div > input{
+    margin-right: 1em;
+    font-size: large;
+}
+
+#reserva-la-vuelta-wrapper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    padding: 0.75em;
+    background-color: #2A4F8C;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#id-reserva{
+    margin-top: 1em;
+}

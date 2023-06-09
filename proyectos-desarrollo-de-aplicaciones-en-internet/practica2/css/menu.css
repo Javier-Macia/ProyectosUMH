@@ -1,0 +1,24 @@
+@import "components/card.css";
+
+.admin-option{
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.admin-option .bi{
+    font-size: 4rem;
+}
+
+.admin-option a{
+    transition: all 0.3s ease-in-out;
+}
+
+.admin-option .card-animated{
+    padding: 10px;
+}
+
+.admin-option:hover a{
+    color: var(--secondary-color);    
+}

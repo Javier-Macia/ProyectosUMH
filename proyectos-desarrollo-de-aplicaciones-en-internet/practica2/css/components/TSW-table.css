@@ -1,0 +1,33 @@
+.TSW-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.TSW-table th{
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.TSW-table th, .TSW-table td {
+    text-align: center;
+    padding: 12px;
+}
+
+.TSW-table tbody > tr:nth-child(1+n){background-color: red}
+
+.edit-registro a, .delete-registro a{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+}
+
+.delete-registro input[type=checkbox] {
+    transform: scale(1.5);
+}

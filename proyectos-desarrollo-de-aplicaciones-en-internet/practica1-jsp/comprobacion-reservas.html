@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Javifly</title>
+    <link rel="stylesheet" href="style/general.css">
+</head>
+<body>
+
+<main>
+    <a href="http://localhost:80/practica1/index.asp">Volver a la página principal</a>
+    <h1>Consulta tu reserva</h1>
+    <form id="formulario" action="consultar-reserva.jsp" method="GET">
+        <div>
+            <label for="dni">DNI:</label>
+            <input id="dni" name="dni" type="text" required>
+        </div>
+
+        <div>
+            <label for="ciudad">Ciudad de origen:</label>
+            <input id="ciudad" name="ciudad" type="text" required>
+        </div>
+        <input type="submit" value="Consultar">
+    </form>
+</main>
+</body>
+</html>

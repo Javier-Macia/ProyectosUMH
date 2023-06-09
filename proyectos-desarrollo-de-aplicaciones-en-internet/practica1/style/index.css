@@ -1,0 +1,383 @@
+@import "components/card-style.css";
+
+/**
+*   INDEX
+**/
+#index-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+*   BUSCADOR VUELOS
+**/
+#buscador-vuelos-wrapper{
+    min-height: 48vh;
+    width: 100%;
+    background-image: url("../img/clouds_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#buscador-vuelos{
+    background-color: rgba(48, 102, 190, 0.60);
+    width: 60%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(37,32,31,.3);
+}
+
+#buscador-vuelos:hover{
+    box-shadow: 0 1px 8px 0 rgba(37,32,31,.5);
+}
+
+#buscador-vuelos-titulo-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    color: #FFE347;
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1em;
+}
+
+#form-buscador{
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#form-content-wrapper{
+    width: 60%;
+    height: 75%;
+}
+
+.vuelos-input-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#origen-destino-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+#origen-wrapper > label{
+    border-top-left-radius: 8px;
+}
+
+#destino-wrapper > label{
+    border-bottom-left-radius: 8px;
+}
+
+#origen-destino-wrapper > .input-wrapper{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper{
+    height: 50%;
+}
+
+.input-wrapper > label{
+    height: 100%;
+    padding: 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFE347;
+    font-size: calc(1em + 0.5vw);
+    color: #3066BE;
+}
+
+.input-wrapper > select{
+    background-color: rgb(246, 246, 246);
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    border: none;
+    padding: 0 1em;
+    font-size: calc(1em + 0.5vw);
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 1px 3px 0 rgba(37,32,31,.3);
+}
+
+.input-wrapper > input:hover{
+    background-color: rgb(246, 246, 246);
+}
+
+.input-wrapper > input:focus{
+    outline: none;
+}
+
+#buscar-vuelos-wrapper{
+    height: 4em;
+    width: 60%;
+}
+
+#buscar-vuelos-wrapper > input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: calc(1em + 0.5vw);
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 1px 3px 0 rgba(37,32,31,.3);
+    background-color: #FFE347;
+    color: #3066BE;
+    font-weight: bold;
+}
+
+#buscar-vuelos-wrapper > input:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 8px 0 rgba(37,32,31, 0.3);
+    background-color: #ffee88;
+}
+
+
+#intercambiar-vuelos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intercambiar-vuelos:hover > #intercambiar-vuelos-boton{
+    background-color: #ffee88;
+}
+
+
+#intercambiar-vuelos-boton{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-size: calc(1em + 0.5vw);
+    box-shadow: 0 1px 3px 0 rgba(37,32,31,.3);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 820px){
+    #buscador-vuelos-titulo-wrapper{
+        font-size: 1em;
+    }
+
+    #buscador-vuelos{
+        width: 100%;
+        height: 38vh;
+    }
+
+    #intercambiar-vuelos-boton{
+        font-size: 1.5em;
+    }
+}
+
+/**
+*   RESULTADOS VUELOS
+**/
+#resultados-vuelos-wrapper{
+    width: 100%;
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultados-vuelos{
+    width: 100%;
+    height: 100%;
+
+}
+
+#resultados-vuelos-titulo-wrapper{
+    width: 80%;
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 2px solid #3066BE;
+}
+
+#resultados-vuelos-contenido-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+#resultados-vuelos-contenido{
+    width: 100%;
+}
+
+#resultados-vuelos-contenido-wrapper td{
+    text-align: center;
+}
+
+.not-found-message{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1020px){
+    #resultados-vuelos-wrapper{
+        padding-inline: 0;
+    }
+
+    #resultados-vuelos-contenido{
+        font-size: 0.6em;
+    }
+}
+
+/** Compromiso **/
+#compromiso-wrapper{
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#compromiso{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#compromiso-titulo-wrapper{
+    padding: 0.5em;
+    width: 60%;
+    text-align: center;
+    border-bottom: 2px solid #3066BE;
+}
+
+#compromiso-titulo-wrapper > h1{
+    font-size: 2em;
+}
+
+#compromiso-sections{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.compromiso-contenido-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 2em;
+}
+
+.compromiso-contenido-row:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+
+.compromiso-contenido{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.compromiso-image{
+    height: 280px;
+    width: 980px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px 0 rgba(37,32,31,.7);
+}
+
+.compromiso-image:hover{
+    box-shadow: 0 8px 16px 0 rgba(37,32,31,.7);
+}
+
+#compromiso-image-1{
+    background-image: url("../img/eco-1.jpg");
+}
+
+#compromiso-image-2{
+    background-image: url("../img/eco-2.jpg");
+}
+
+#compromiso-image-3{
+    background-image: url("../img/eco-3.jpg");
+    background-position-y: 20%;
+ }
+
+@media screen and (max-width: 1020px){
+    #compromiso-wrapper{
+        padding-inline: 0;
+    }
+
+    #compromiso{
+        width:100%;
+    }
+
+    .compromiso-contenido-row{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .compromiso-contenido-row:nth-child(2){
+        flex-direction: column;
+    }
+    .compromiso-image{
+        width: 100%;
+    }
+}
+
+#consulta-reservas-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#consulta-reservas-wrapper > div{
+    width: 100%;
+}

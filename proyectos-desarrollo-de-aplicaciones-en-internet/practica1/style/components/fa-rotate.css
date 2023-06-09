@@ -1,0 +1,12 @@
+@keyframes rotate {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.fa-rotate {
+    animation: rotate 0.1s linear;
+}

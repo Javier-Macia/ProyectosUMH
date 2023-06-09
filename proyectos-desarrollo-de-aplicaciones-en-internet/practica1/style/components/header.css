@@ -1,0 +1,176 @@
+@import "sticky.css";
+
+#logo-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FFE347;
+    text-decoration: none;
+    gap: 0.25em;
+}
+
+#logo-wrapper > h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#logo {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+#logo > img{
+    height: 80%;
+    object-fit: contain;
+}
+
+#main-header{
+    display: flex;
+    height: 4em;
+    width: 100%;
+    padding-inline: 5%;
+    background-color: #3066BE;
+    box-shadow: 0 2px 3px 0 rgba(37,32,31,.3);
+    gap: 2em;
+}
+
+#navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+    #logo-wrapper > h1{
+        font-size: 1.5em;
+    }
+}
+
+/**Menú hamburguesa**/
+#navbar > ul > li > a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+#navbar > ul > li > a:hover{
+    background-color: #16252133;
+    color: white;
+}
+
+#menu_nav{
+    display: block;
+    margin: 1.5em 0 0 0;
+}
+
+#menu_bar{
+    display: none;
+}
+
+#icon_menu{
+    display: none;
+}
+
+@media (max-width: 580px) {
+    #navbar{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    #navbar > ul > li > a{
+        color: black;
+        width: 100%;
+    }
+
+    #navbar > ul > li > a:hover{
+        background-color: #ffffff00;
+        color:black;
+    }
+
+    #icon_menu{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    #menu_nav{
+        display: none;
+    }
+
+    #menu_bar ~ ul{
+        display: none;
+    }
+
+    #menu_bar:checked ~ ul{
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 4em;
+        background-color: white;
+        border-bottom: 2px solid #e0e0e0;
+        border-radius: 0 0 10px 10px;
+        margin: 0;
+        height: 100vh;
+        width: 50%;
+    }
+
+    #menu_bar:checked ~ ul li{
+        height: 3.5em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid black;
+    }
+
+    #menu_bar:checked ~ ul li:nth-child(2n){
+        background-color: #FFE34733;
+    }
+
+    #menu_bar:checked ~ ul li > a{
+        height: 100%;
+        padding-block: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icon_menu {
+        border: 1px solid rgb(33, 33, 33);
+        background-color: #FFE347;
+        border-radius: 5px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+}
+

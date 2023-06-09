@@ -1,0 +1,26 @@
+#presentation-wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+#presentation-div{
+    background-image: url("../resources/images/barco_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 70vh;
+    width: 100%;
+    margin:0;
+    margin-bottom: 20px;
+}
+
+.icon-text{
+    font-size: 3em;
+    text-align: center;
+}

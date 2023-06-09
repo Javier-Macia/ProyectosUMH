@@ -1,0 +1,2 @@
+﻿Usuario del panel de administrador: admin
+Contraseña: 1234

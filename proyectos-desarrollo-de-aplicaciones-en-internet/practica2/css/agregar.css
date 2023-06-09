@@ -1,0 +1,20 @@
+#form-add{
+    padding: 2%;
+}
+
+#form-add input, select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#form-content{
+    margin: 0;
+    padding: 24px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+.javifly-table{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.javifly-table td{
+    width: 1%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.javifly-table > tbody > tr:nth-child(2n+1) {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.javifly-table > thead > tr > th {
+    background-color: #3066BE;
+    color: white;
+}
+
+
+.javifly-table .input_cell > input{    
+    font-size: 1em;
+    background-color: #3066BE;
+    color: white;
+    width: 100%;
+    border: none;
+}
+
+.javifly-table .actions-wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+.javifly-table .actions-wrapper .action-cell input, button{
+    width: 100%;
+    cursor: pointer;
+    padding: 2px 0 2px 0;
+}
+
+.javifly-table .btn-edit{
+    cursor: pointer;
+    background-color: #3066BE;
+    color: white;
+}
+
+.javifly-table .action-cell{
+    color: white;
+    height: 100%;
+}
+
+.javifly-table .action-cell, .btn-del{
+    background-color: #3066BE;
+    height: 100%;
+} 

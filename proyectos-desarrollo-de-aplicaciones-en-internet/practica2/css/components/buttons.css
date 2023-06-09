@@ -1,0 +1,49 @@
+.primary-button, .secondary-button, .danger-button{
+    transition: all 0.3s ease 0s;
+    padding: 15px 32px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.primary-button:hover, .secondary-button:hover, .danger-button{
+    cursor:pointer;
+}
+
+.primary-button{
+    background-color: var(--primary-color);
+    color: var(--text-onprimary-color);
+}
+
+.secondary-button{
+    background-color: var(--secondary-color);
+    color: var(--text-onsecondary-color);
+}
+
+.danger-button{
+    background-color: var(--danger-color);
+    color: var(--text-ondanger-color);
+}
+
+.primary-button:hover{
+    background-color: var(--primary-color-hover);
+}
+
+.secondary-button:hover{
+    background-color: var(--secondary-color-hover);
+}
+
+.danger-button:hover{
+    background-color: var(--danger-color-hover);
+}
+
+@media screen and (max-width: 600px) {
+    .primary-button, .secondary-button{
+        font-size: 14px;
+
+    };
+    
+}
